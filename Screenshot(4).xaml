@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1369,710</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>929.6,712.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Screenshot_4__1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
@@ -66,14 +66,14 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Screenshot_4_" sap:VirtualizedContainerService.HintSize="634,645" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Screenshot_4_" sap:VirtualizedContainerService.HintSize="633.6,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
         <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
-        <x:Double x:Key="Height">608</x:Double>
+        <x:Double x:Key="Height">610.8</x:Double>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
@@ -83,17 +83,17 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
-          <av:Size x:Key="ShapeSize">200,124</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,251.5 300,271.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,128.8</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,256.3 300,271.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" sap2010:Annotation.AnnotationText="Open Microsoft Edge and go to crypto.com/price to get screenshot of graph of searched cryptos" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="200,124" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="crypto.com/price">
+      <ui:OpenBrowser sap2010:Annotation.AnnotationText="Open Microsoft Edge and go to crypto.com/price to get screenshot of graph of searched cryptos" AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="Edge" CommunicationMethod="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Open Browser" Hidden="{x:Null}" sap:VirtualizedContainerService.HintSize="200,128.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" Url="crypto.com/price" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="788,2151" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="462.4,1764" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <Sequence.Variables>
                 <Variable x:TypeArguments="ui:Image" Name="ss1" />
               </Sequence.Variables>
@@ -102,97 +102,48 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:AnchorBase AnchorPosition="Auto" sap2010:Annotation.AnnotationText="Searched for bticoin in the website and click it&#xA;" DisplayName="Anchor Base - Bitcoin" sap:VirtualizedContainerService.HintSize="726,242" sap2010:WorkflowViewState.IdRef="AnchorBase_6">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Bitcoin Icon" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf456f42-9ac3-4d09-968d-59caacee2661" InformativeScreenshot="33f63db7179eed465c53e4457fbfcc63" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element Bitcoin" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_6">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dc851aa2-4446-4363-8370-d2c4b3a0a0fd" InformativeScreenshot="ff60d18d99f7e77f22d811dc16a1ffe0" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='2' tag='DIV' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
+              <Sequence sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-              </ui:AnchorBase>
-              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Bitcoin" sap:VirtualizedContainerService.HintSize="726,242" sap2010:WorkflowViewState.IdRef="AnchorBase_7">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot of Bitcoin graph" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[In_SS1]">
-                      <ui:TakeScreenshot.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="a7ab16ec8e37b9b0fdf53546a427f1fb" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:TakeScreenshot.Target>
-                    </ui:TakeScreenshot>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" sap2010:Annotation.AnnotationText="Find Price element in the graph as this graph icon is the only static element" DisplayName="Find Element 'Price'" sap:VirtualizedContainerService.HintSize="334,149" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_7">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6074a924-d2f3-4297-90c8-75443213d24b" InformativeScreenshot="54e1897a4397f2ee62daa0521d6b5868" Selector="&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
-              </ui:AnchorBase>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" sap2010:Annotation.AnnotationText="Go Back to Previous Page to select other cryptos" ClickType="CLICK_SINGLE" DisplayName="Click Back Button" sap:VirtualizedContainerService.HintSize="726,138" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Bitcoin Icon" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf456f42-9ac3-4d09-968d-59caacee2661" InformativeScreenshot="33f63db7179eed465c53e4457fbfcc63" Selector="&lt;html app='msedge.exe' title='Top 50 Cryptocurrency Prices, Coin Market Cap, Price Charts And Historical Data | Crypto.com' /&gt;&lt;webctrl tag='H1' /&gt;&lt;nav up='2' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot of bitcoin" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_4" Screenshot="[In_SS1]">
+                  <ui:TakeScreenshot.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3a03d8bf-01f1-40d8-9507-ba4265fe7938" InformativeScreenshot="477ed4e1dddbca709c29ed60f1dd42be" Selector="&lt;html app='msedge.exe' title='Bitcoin Price | BTC Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TakeScreenshot.Target>
+                </ui:TakeScreenshot>
+              </Sequence>
+              <ui:Click AlterIfDisabled="{x:Null}" sap2010:Annotation.AnnotationText="Go Back to Previous Page to select other cryptos" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Back Button" sap:VirtualizedContainerService.HintSize="400,138.4" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -219,92 +170,48 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:Click>
-              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Ethereum" sap:VirtualizedContainerService.HintSize="726,200" sap2010:WorkflowViewState.IdRef="AnchorBase_8">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Ethereum Icon" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf456f42-9ac3-4d09-968d-59caacee2661" InformativeScreenshot="07908e38a557baed8232e8dbdbdbae72" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element Ethereum" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_8">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dc851aa2-4446-4363-8370-d2c4b3a0a0fd" InformativeScreenshot="07908e38a557baed8232e8dbdbdbae72" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='3' tag='DIV' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
-              </ui:AnchorBase>
-              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Ethereum" sap:VirtualizedContainerService.HintSize="726,242" sap2010:WorkflowViewState.IdRef="AnchorBase_9">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot of Ethereum graph" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="TakeScreenshot_2" Screenshot="[In_SS2]">
-                      <ui:TakeScreenshot.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="e18213661df48d11b1e235d09fef2c6b" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:TakeScreenshot.Target>
-                    </ui:TakeScreenshot>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" sap2010:Annotation.AnnotationText="Find Price element in the graph as this graph icon is the only static element" DisplayName="Find Element 'Price'" sap:VirtualizedContainerService.HintSize="334,149" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_9">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6074a924-d2f3-4297-90c8-75443213d24b" InformativeScreenshot="54e1897a4397f2ee62daa0521d6b5868" Selector="&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
-              </ui:AnchorBase>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Back Button" sap:VirtualizedContainerService.HintSize="726,107" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <Sequence DisplayName="Sequence - Ethereum" sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Ethereum'" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="Click_13" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="86ecbaad-78de-4a98-b892-a5cca1d6c84e" InformativeScreenshot="44d8a12addaed9a561e5bf3767b314df" Selector="&lt;html app='msedge.exe' title='Top 50 Cryptocurrency Prices, Coin Market Cap, Price Charts And Historical Data | Crypto.com' /&gt;&lt;webctrl tag='H1' /&gt;&lt;nav up='2' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:TakeScreenshot ContinueOnError="{x:Null}" DisplayName="Take Screenshot of Ethereum graph" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_2" Screenshot="[In_SS2]" WaitBefore="{x:Null}">
+                  <ui:TakeScreenshot.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="d9b7aad4626d1a0e6621f784de4b297a" Selector="&lt;html app='msedge.exe' title='Ethereum Price | ETH Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TakeScreenshot.Target>
+                </ui:TakeScreenshot>
+              </Sequence>
+              <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Back Button" sap:VirtualizedContainerService.HintSize="400,107.2" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -326,98 +233,55 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="726,200" sap2010:WorkflowViewState.IdRef="AnchorBase_10">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Litecoin Icon" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT">
-                      <ui:Click.CursorPosition>
-                        <ui:CursorPosition Position="Center">
-                          <ui:CursorPosition.OffsetX>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetX>
-                          <ui:CursorPosition.OffsetY>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:CursorPosition.OffsetY>
-                        </ui:CursorPosition>
-                      </ui:Click.CursorPosition>
-                      <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bf456f42-9ac3-4d09-968d-59caacee2661" InformativeScreenshot="b939d0ce1de93b1f350e62884803fe9d" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:Click.Target>
-                    </ui:Click>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'Litecoin'" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_10">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="dc851aa2-4446-4363-8370-d2c4b3a0a0fd" InformativeScreenshot="d9dfa7a106963e377145d9e54bc5683c" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='4' tag='DIV' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
-              </ui:AnchorBase>
-              <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="726,242" sap2010:WorkflowViewState.IdRef="AnchorBase_11">
-                <ui:AnchorBase.Action>
-                  <ActivityAction x:TypeArguments="ui:Anchor">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
-                    </ActivityAction.Argument>
-                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot of Litecoin graph" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="TakeScreenshot_3" Screenshot="[In_SS3]">
-                      <ui:TakeScreenshot.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="3fec0c1b804bd40e65ddb8917d83eb4d" Selector="&lt;webctrl tag='DIV' /&gt;">
-                          <ui:Target.TimeoutMS>
-                            <InArgument x:TypeArguments="x:Int32" />
-                          </ui:Target.TimeoutMS>
-                          <ui:Target.WaitForReady>
-                            <InArgument x:TypeArguments="ui:WaitForReady" />
-                          </ui:Target.WaitForReady>
-                        </ui:Target>
-                      </ui:TakeScreenshot.Target>
-                    </ui:TakeScreenshot>
-                  </ActivityAction>
-                </ui:AnchorBase.Action>
-                <ui:AnchorBase.AnchorProvider>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" sap2010:Annotation.AnnotationText="Find Price element in the graph as this graph icon is the only static element" DisplayName="Find Element 'Price'" sap:VirtualizedContainerService.HintSize="334,149" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_11">
-                    <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6074a924-d2f3-4297-90c8-75443213d24b" InformativeScreenshot="54e1897a4397f2ee62daa0521d6b5868" Selector="&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:WaitUiElementAppear.Target>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:WaitUiElementAppear>
-                </ui:AnchorBase.AnchorProvider>
-              </ui:AnchorBase>
-              <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window " sap:VirtualizedContainerService.HintSize="726,107" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="d18e63a967f154c19179edbfd2094563" WaitForReady="INTERACTIVE" />
+              <Sequence DisplayName="Sequence - Tether" sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Tether'" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3f790573-ce57-409b-8c19-28a00bba7bb7" InformativeScreenshot="7a7504599f5b4d14673da05a93e25649" Selector="&lt;html app='msedge.exe' title='Top 50 Cryptocurrency Prices, Coin Market Cap, Price Charts And Historical Data | Crypto.com' /&gt;&lt;webctrl tag='H1' /&gt;&lt;nav up='2' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='4' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:TakeScreenshot ContinueOnError="{x:Null}" DisplayName="Take Screenshot of Tether graph" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_3" Screenshot="[In_SS3]" WaitBefore="{x:Null}">
+                  <ui:TakeScreenshot.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="953508d359834ffd2d3036385e11fe2a" Selector="&lt;html app='msedge.exe' title='Tether Price | USDT Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl id='tabs-:rca:--tab-0' tag='BUTTON' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TakeScreenshot.Target>
+                </ui:TakeScreenshot>
+              </Sequence>
+              <ui:CloseWindow ContinueOnError="{x:Null}" DisplayName="Close Window " sap:VirtualizedContainerService.HintSize="400,107.2" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="d18e63a967f154c19179edbfd2094563" Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" WaitForReady="INTERACTIVE" />
             </Sequence>
           </ActivityAction>
         </ui:OpenBrowser.Body>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:OpenBrowser>
@@ -426,11 +290,11 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">200,271.5</av:Point>
-              <av:Size x:Key="ShapeSize">200,94</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">300,365.5 300,394</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,96.8</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">300,368.3 300,394</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of bitcoin graph into directory" DisplayName="Save Image - Bitcoin" FileName="Bitcoin Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,94" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[In_SS1]">
+          <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of bitcoin graph into directory" ContinueOnError="{x:Null}" DisplayName="Save Image - Bitcoin" FileName="Bitcoin Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="SaveImage_1" Image="[In_SS1]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -443,11 +307,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">200,394</av:Point>
-                  <av:Size x:Key="ShapeSize">200,94</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">300,488 300,514</av:PointCollection>
+                  <av:Size x:Key="ShapeSize">200,96.8</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">300,490.8 300,514</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of ethereum graph into directory" DisplayName="Save Image - Ethereum" FileName="Ethereum Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,94" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[In_SS2]">
+              <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of ethereum graph into directory" ContinueOnError="{x:Null}" DisplayName="Save Image - Ethereum" FileName="Ethereum Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[In_SS2]">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -460,10 +324,10 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">200,514</av:Point>
-                      <av:Size x:Key="ShapeSize">200,94</av:Size>
+                      <av:Size x:Key="ShapeSize">200,96.8</av:Size>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of litecoin graph into directory" DisplayName="Save Image - Tether" FileName="Tether Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,94" sap2010:WorkflowViewState.IdRef="SaveImage_3" Image="[In_SS3]">
+                  <ui:SaveImage sap2010:Annotation.AnnotationText="Save screenshot of litecoin graph into directory" ContinueOnError="{x:Null}" DisplayName="Save Image - Tether" FileName="Tether Graph Screenshot.png" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="SaveImage_3" Image="[In_SS3]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
