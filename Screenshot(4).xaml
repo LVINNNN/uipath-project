@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>929.6,712.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1187.2,712.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Screenshot_4__1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
@@ -87,13 +87,13 @@
           <av:PointCollection x:Key="ConnectorLocation">300,256.3 300,271.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser sap2010:Annotation.AnnotationText="Open Microsoft Edge and go to crypto.com/price to get screenshot of graph of searched cryptos" AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="Edge" CommunicationMethod="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Open Browser" Hidden="{x:Null}" sap:VirtualizedContainerService.HintSize="200,128.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" Url="crypto.com/price" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}">
+      <ui:OpenBrowser sap2010:Annotation.AnnotationText="Open Microsoft Edge and go to crypto.com/price to get screenshot of graph of searched cryptos" AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="Edge" CommunicationMethod="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Open Browser" Hidden="{x:Null}" sap:VirtualizedContainerService.HintSize="496,2228.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" Url="crypto.com/price" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="462.4,1764" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="462.4,2059.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <Sequence.Variables>
                 <Variable x:TypeArguments="ui:Image" Name="ss1" />
               </Sequence.Variables>
@@ -102,7 +102,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence sap:VirtualizedContainerService.HintSize="400,476" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -130,9 +130,10 @@
                     </ui:Target>
                   </ui:Click.Target>
                 </ui:Click>
-                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot of bitcoin" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_4" Screenshot="[In_SS1]">
+                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="337.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="337.6,86.4" sap2010:WorkflowViewState.IdRef="TakeScreenshot_5" Screenshot="[In_SS1]">
                   <ui:TakeScreenshot.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3a03d8bf-01f1-40d8-9507-ba4265fe7938" InformativeScreenshot="477ed4e1dddbca709c29ed60f1dd42be" Selector="&lt;html app='msedge.exe' title='Bitcoin Price | BTC Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="baa533c4-2dba-4967-a28a-6b9061343fbe">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -170,7 +171,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:Click>
-              <Sequence DisplayName="Sequence - Ethereum" sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="Sequence - Ethereum" sap:VirtualizedContainerService.HintSize="400,476" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -198,9 +199,10 @@
                     </ui:Target>
                   </ui:Click.Target>
                 </ui:Click>
-                <ui:TakeScreenshot ContinueOnError="{x:Null}" DisplayName="Take Screenshot of Ethereum graph" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_2" Screenshot="[In_SS2]" WaitBefore="{x:Null}">
+                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="337.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="337.6,86.4" sap2010:WorkflowViewState.IdRef="TakeScreenshot_6" Screenshot="[In_SS2]">
                   <ui:TakeScreenshot.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="d9b7aad4626d1a0e6621f784de4b297a" Selector="&lt;html app='msedge.exe' title='Ethereum Price | ETH Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl aria-role='tab' tag='BUTTON' type='button' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="53fa01a7-b475-4459-b338-4bd095d29000">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -233,7 +235,7 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Sequence DisplayName="Sequence - Tether" sap:VirtualizedContainerService.HintSize="400,366.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <Sequence DisplayName="Sequence - Tether" sap:VirtualizedContainerService.HintSize="400,442.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -261,9 +263,10 @@
                     </ui:Target>
                   </ui:Click.Target>
                 </ui:Click>
-                <ui:TakeScreenshot ContinueOnError="{x:Null}" DisplayName="Take Screenshot of Tether graph" sap:VirtualizedContainerService.HintSize="337.6,107.2" sap2010:WorkflowViewState.IdRef="TakeScreenshot_3" Screenshot="[In_SS3]" WaitBefore="{x:Null}">
+                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="337.6,90.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="337.6,52.8" sap2010:WorkflowViewState.IdRef="TakeScreenshot_7" Screenshot="[In_SS3]">
                   <ui:TakeScreenshot.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ab3e9a45-3b3c-451f-9b62-caf70a4194b3" InformativeScreenshot="953508d359834ffd2d3036385e11fe2a" Selector="&lt;html app='msedge.exe' title='Tether Price | USDT Price, News, USD converter, Charts | Crypto.com' /&gt;&lt;webctrl id='tabs-:rca:--tab-0' tag='BUTTON' /&gt;&lt;nav up='2' /&gt;&lt;webctrl class='highcharts-background' tag='rect' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="464f6f27-f8dd-449a-bea7-1455679c4c77">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -272,6 +275,12 @@
                       </ui:Target.WaitForReady>
                     </ui:Target>
                   </ui:TakeScreenshot.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
                 </ui:TakeScreenshot>
               </Sequence>
               <ui:CloseWindow ContinueOnError="{x:Null}" DisplayName="Close Window " sap:VirtualizedContainerService.HintSize="400,107.2" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="d18e63a967f154c19179edbfd2094563" Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" WaitForReady="INTERACTIVE" />
